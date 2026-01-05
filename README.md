@@ -37,16 +37,22 @@ Starter Kit for Junior Developer Interview - Product Store with Order Management
    ```bash
    bun install
    ```
+   
+   *Note: If Bun is not available, you can use npm: `npm install`*
 
 2. **Push database schema**:
    ```bash
    bun run db:push
    ```
+   
+   *Or with npm: `npm run db:push`*
 
 3. **Seed the database**:
    ```bash
    bun run db:seed
    ```
+   
+   *Note: If Bun is not available, run: `npx tsx src/db/seed.ts`*
 
 4. **Run development server**:
    ```bash

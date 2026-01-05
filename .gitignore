@@ -9,3 +9,5 @@ drizzle
 dist
 build
 .vercel
+next-env.d.ts
+package-lock.json
