@@ -1,0 +1,13 @@
+node_modules
+.next
+.env.local
+.DS_Store
+*.log
+sqlite.db
+sqlite.db-journal
+drizzle
+dist
+build
+.vercel
+next-env.d.ts
+package-lock.json
